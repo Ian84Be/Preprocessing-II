@@ -1,5 +1,5 @@
 .g-button(@width, @height, @bgcolor, @font-color) {
-    // border:1px solid black;
+   
     .border-radius(20px);
     .center();
     width:@width;
@@ -13,6 +13,7 @@
     &:hover {
         color:@bgcolor;
         background:@font-color;
+        border:1px solid @bgcolor;
     }
 }
 
