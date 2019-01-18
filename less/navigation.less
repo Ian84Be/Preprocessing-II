@@ -1,1 +1,26 @@
-// Navigation Styles here
+nav {
+    // border:3px solid yellow;
+    margin:0 5%;
+    width: 46%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+    a {
+        // border:1px solid cyan;
+        
+        font-size:1.6rem;
+        color:black;
+        text-decoration:none;
+        &:hover {
+            text-decoration:underline;
+        }
+    }
+
+    @media @mobile {
+        // border:2px solid magenta;
+        margin:0;
+        width:100%;
+    }
+
+}
